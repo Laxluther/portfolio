@@ -1,12 +1,30 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub } from "react-icons/ai";
  
-
- 
+import mush from "..\images\mush.jpg"
 import qc from "../images/Qc_lab.png"
 import React from 'react'
 import nutri from "../images/nutriscore.png"
 const projectConfig = [
+    {
+        id: "project-3",
+        title: "House of Mushroom",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/Laxluther/Mushroom-prediction",
+                icon: <AiFillGithub/>,
+            },
+            {
+                name: "fork",
+                url: "https://github.com/Laxluther/Mushroom-prediction/fork",
+                icon: <BiGitRepoForked/>,
+            }
+        ],
+        image: mush,
+        description: "Developed a Convolutional Neural Network (CNN) leveraging three advanced pre-trained models—InceptionV3, DenseNet121, and Xception. The models demonstrated strong performance, achieving accuracies of 82%, 80%, and 80%, respectively. I built a user-friendly web application using Flask to facilitate real-time mushroom species classification. Users can upload mushroom images, and the application utilizes the trained models to predict the species. To enrich the user experience, detailed descriptions of each predicted mushroom species are generated using GPT-2, providing comprehensive insights and enhancing the overall utility of the application.",
+        target: "_blank"
+    },
     {
         id: "project-2",
         title: "Quality Control Software",
