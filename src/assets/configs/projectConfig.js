@@ -1,7 +1,7 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub } from "react-icons/ai";
  
-import mush from "..\images\mush.jpg"
+import mush from "../images/mush.png"
 import qc from "../images/Qc_lab.png"
 import React from 'react'
 import nutri from "../images/nutriscore.png"
